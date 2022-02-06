@@ -4,8 +4,7 @@
 
    trait RepositoryTrait {
         private function getUserAuth(): User {
-            // return auth()->user();
-            return User::first();
+             return auth()->user();
         }
    }
 ?>
